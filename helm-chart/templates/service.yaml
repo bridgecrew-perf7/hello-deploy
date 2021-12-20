@@ -3,8 +3,9 @@ kind: Service
 metadata:
   name: hello-service
 spec:
+  type: ClusterIP
   selector:
-    app: nginx
+    app: hello
   ports:
     - protocol: TCP
       port: 80
