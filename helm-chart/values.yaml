@@ -1,0 +1,3 @@
+image:
+  registry: europe-central2-docker.pkg.dev
+  repository: farkasret/test
