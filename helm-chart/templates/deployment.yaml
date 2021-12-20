@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello
-        image: nginx:1.14.2
+        image: "{{ .Values.image.registry }}/{{ .Values.image.repository }}:{{ .Chart.AppVersion }}"
         ports:
         - containerPort: 80
