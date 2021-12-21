@@ -4,3 +4,6 @@ fileExistenceTests:
   - name: 'index.html exists'
     path: '/usr/share/nginx/html/index.html'
     shouldExist: true
+
+metadataTest:
+  exposedPorts: ["80"]
